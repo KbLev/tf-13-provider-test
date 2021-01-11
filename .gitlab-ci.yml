@@ -2,7 +2,8 @@ image: $DOCKER_REPO/iac-pipeline/iac-deploy:0.2.0
 
 variables:
   TERRAFORM_PATH: terraform13
-
+  DOCKER_REPO: nwm-docker-repo.artifactory.platform.nwminfra.net
+  
 stages:
   - plan
 
