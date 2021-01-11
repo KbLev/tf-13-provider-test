@@ -11,4 +11,4 @@ stages:
 plan:
   stage: plan
   script:
-    - '"${TERRAFORM_PATH}" init'
+    - '"${TERRAFORM_PATH}" init -verify-plugins=false'

@@ -1,2 +1,2 @@
-rm -force -recurse -verbose ./.terraform
+Remove-Item -force -recurse -verbose ./.terraform
 tf-13-05 init

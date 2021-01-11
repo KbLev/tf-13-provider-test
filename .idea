@@ -1,0 +1,10 @@
+To investigate the following URLs:
+
+checkpoint-api.hashicorp.com/v1/check/terraform?arch=amd64&os=linux&signature=6cdb5a0b-c2cd-af90-ac42-10d6441c328c&version=0.13.5
+checkpoint-api.hashicorp.com/v1/check/terraform?arch=amd64&os=linux&signature=9c5b1a3b-be3f-2d19-f0a9-7c35422b2ddb&version=0.13.5
+checkpoint-api.hashicorp.com/v1/check/terraform?arch=amd64&os=linux&signature=08f06a50-64ec-5a14-504a-5bc674cfca91&version=0.13.5
+
+github.com/gitlabhq/terraform-provider-gitlab/releases/download/v3.3.0/terraform-provider-gitlab_3.3.0_sha256sums
+github.com/jfrog/terraform-provider-artifactory/releases/download/v2.2.4/terraform-provider-artifactory_2.2.4_sha256sums
+
+
