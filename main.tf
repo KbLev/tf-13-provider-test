@@ -3,17 +3,17 @@
 ###
 
 #! Not working (failed to get checksum) - local & remote
-# terraform {
-#   required_providers {
-#     gitlab = {
-#       source = "gitlabhq/gitlab"
-#       version = "3.3.0"
-#     }
-#   }
-# }
+terraform {
+  required_providers {
+    gitlab = {
+      source = "gitlabhq/gitlab"
+      version = "3.3.0"
+    }
+  }
+}
 
-# provider "gitlab" {
-# }
+provider "gitlab" {
+}
 
 
 ###
@@ -21,17 +21,17 @@
 ###
 
 #! Not working (failed to get checksum)
-terraform {
-  required_providers {
-    artifactory = {
-      source = "jfrog/artifactory"
-      version = "2.2.4"
-    }
-  }
-}
+# terraform {
+#   required_providers {
+#     artifactory = {
+#       source = "jfrog/artifactory"
+#       version = "2.2.4"
+#     }
+#   }
+# }
 
-provider "artifactory" {
-}
+# provider "artifactory" {
+# }
 
 
 ###
@@ -39,8 +39,8 @@ provider "artifactory" {
 ###
 
 #! Works fine on local & remote
-provider "tfe" {
-}
+# provider "tfe" {
+# }
 
 
 ###
@@ -48,11 +48,11 @@ provider "tfe" {
 ###
 
 #! Both work fine on local & remote
-provider "google" {
-}
+# provider "google" {
+# }
 
-provider "google-beta" {
-}
+# provider "google-beta" {
+# }
 
 
 ###
@@ -60,8 +60,8 @@ provider "google-beta" {
 ###
 
 #! Both work fine on local & remote
-provider "null" {
-}
+# provider "null" {
+# }
 
-provider "random" {
-}
+# provider "random" {
+# }
