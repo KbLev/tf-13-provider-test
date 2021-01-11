@@ -4,9 +4,9 @@ variables:
   TERRAFORM_PATH: terraform13
 
 stages:
-  - init
+  - plan
 
 
-init:
+plan:
   script:
     - '"${TERRAFORM_PATH}" init'
