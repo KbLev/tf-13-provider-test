@@ -11,4 +11,5 @@ stages:
 plan:
   stage: plan
   script:
+    - 'rm -fv ./.terraform || exit 0'
     - '"${TERRAFORM_PATH}" init -verify-plugins=false'
