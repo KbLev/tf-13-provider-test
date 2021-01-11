@@ -1,35 +1,65 @@
-terraform {
-  required_providers {
-    gitlab = {
-      source = "gitlabhq/gitlab"
-      version = "3.3.0"
-    }
+###
+###  Gitlab
+###
 
-    artifactory = {
-      source = "jfrog/artifactory"
-      version = "2.2.4"
-    }
-  }
-}
+#! Not working (failed to get checksum)
+# terraform {
+#   required_providers {
+#     gitlab = {
+#       source = "gitlabhq/gitlab"
+#       version = "3.3.0"
+#     }
+#   }
+# }
+
+# provider "gitlab" {
+# }
 
 
+###
+###  Artifactory
+###
 
-provider "gitlab" {
-  # Configuration options
-}
+#! Not working (failed to get checksum)
+# terraform {
+#   required_providers {
+#     artifactory = {
+#       source = "jfrog/artifactory"
+#       version = "2.2.4"
+#     }
+#   }
+# }
 
+# provider "artifactory" {
+# }
+
+
+###
+###  TFE
+###
+
+#! Works
 provider "tfe" {
 }
 
-provider "artifactory" {
-}
 
+###
+###  Googles
+###
+
+#! Both works
 provider "google" {
 }
 
 provider "google-beta" {
 }
 
+
+###
+###  Others
+###
+
+#! Both works
 provider "null" {
 }
 
