@@ -1,0 +1,12 @@
+image: $DOCKER_REPO/iac-pipeline/iac-deploy:0.2.0
+
+variables:
+  TERRAFORM_PATH: terraform13
+
+stages:
+  - init
+
+
+init:
+  script:
+    - '"${TERRAFORM_PATH}" init'
