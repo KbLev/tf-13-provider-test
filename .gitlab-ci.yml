@@ -8,5 +8,6 @@ stages:
 
 
 plan:
+  stage: plan
   script:
     - '"${TERRAFORM_PATH}" init'
